@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="b.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="demo_script_src.js">
+    </script>
+    <title>BuRg | Register</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">BuRg</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">REGISTER</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <form onsubmit="return verifyPassword()" action="/action_page.php">
+            FIRSTNAME: <input type="text" name="first" value="" /><br />
+            <br>
+            LASTNAME: <input type="text" name="last" value="" /><br />
+            <br>
+            EMAIL: <input type="text" name="email" value="" /><br />
+            <br>
+            MOBILE: <Select name="mobile" >
+
+                select <option value="countrytype">
+                    91
+                <option value="ANDHRA PRADESH">
+
+                    <input type="text" name="number" value="" /><br />
+                    <br>
+                    PASSWORD: <input type="password" id="pswd" value="" required><br />
+                    <br>
+                    GENDER: MALE <input type="radio" name="option">
+                    FEMALE <input type="radio" name="option" /><br />
+                    <br>
+                    <input type="checkbox" name="agree"> I agree to the terms and conditions<br>
+                    <br>
+                    <input type="submit" onClick="parent.location='home.html'" value='submit'>
+        </form>
+    </div>
+</body>
+</html>

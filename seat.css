@@ -1,0 +1,39 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+.image{
+    background-color:white;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    padding-left: 0px;
+    opacity:0.6;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-link{
+    color:black;
+    font-family:fantasy;
+}
+.table1{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right:20px ;
+    color:black;
+    font-family:cursive;
+}
+.a1{
+    color:black;
+    font-family:fantasy;
+}
+body{
+    text-align:center;
+    background-color:white;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+}
+

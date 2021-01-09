@@ -1,0 +1,23 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.nav-link{
+    color:black;
+    font-family: fantasy;
+}
+form{
+    display:block;
+    text-align:center;
+    padding-top: 20px;
+}
+.container-fluid{
+    color:black;
+    font-family:fantasy;
+}
+.register {
+    text-align: center;
+    font-family:serif;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+form{
+    text-align:center;
+    display:block;
+    font-family:fantasy;
+    color:black;
+    padding-top: 50px;
+}
+.nav-link{
+    color:black;
+    font-family:fantasy;
+}
