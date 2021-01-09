@@ -25,14 +25,14 @@
         </ul>
     </div>
     <div class="container-fluid">
-        <form onsubmit="return verifyPassword()" action="/action_page.php">
+        <form action="/action_page.php">
             FIRSTNAME: <input type="text" name="first" value="" /><br />
             <br>
             LASTNAME: <input type="text" name="last" value="" /><br />
             <br>
-            EMAIL: <input type="text" name="email" value="" /><br />
+            EMAIL: <input type="text" name="email" value="" required><br />
             <br>
-            MOBILE: <Select name="mobile" >
+            MOBILE: <Select name="mobile" required>
 
                 select <option value="countrytype">
                     91
@@ -47,7 +47,7 @@
                     <br>
                     <input type="checkbox" name="agree"> I agree to the terms and conditions<br>
                     <br>
-                    <input type="submit" onClick="parent.location='home.html'" value='submit'>
+                    <input type="submit" onClick="parent.location='index.html'" value='submit'>
         </form>
     </div>
 </body>
