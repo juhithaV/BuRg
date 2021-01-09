@@ -1,0 +1,32 @@
+body{
+
+    text-align:center;
+    background-color:white;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+}
+p{
+
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+}
+.nav-link{
+    color:black;
+    font-family: fantasy;
+
+}
+.seat{
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.scroll{
+    font-family:fantasy;
+    color:black;
+}
